@@ -1,5 +1,6 @@
 //IF 
-
+let valor1=1
+let valor2=2
 // sequecias de avaliçao sem restriçoes, avaliam sempre qualquer if
 if(valor1==valor2){
 console.log("os valores sao iguais");
