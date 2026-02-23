@@ -1,0 +1,46 @@
+        *{
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            text-align: left;
+            color: rgb(93, 138, 206);
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-align: justify;
+        }
+        img{
+            display:block;
+            margin: auto;
+            height: 110px;
+        }
+        header{
+            background:linear-gradient(to bottom ,rgb(180, 180, 217),lightblue,rgb(203, 218, 223));
+        }
+        footer{
+             background:linear-gradient(to top ,rgb(180, 180, 217),lightblue,rgb(203, 218, 223));
+             padding: 4px;
+        }
+        h6{text-align: right;
+        }
+        h3{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            text-align: center;
+        }
+        div{
+            background-color: white;
+            display: block;
+            margin: auto;
+            width: 90%;
+            padding: 3px;
+            border-radius: 20px;
+        }
+        body{
+            background-color: rgb(239, 247, 247);
+        }
