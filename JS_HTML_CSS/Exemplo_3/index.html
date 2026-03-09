@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3</title>
+
+    <style> 
+        body{           
+            display: flexbox;
+            position:relative;
+            justify-content: center;
+            align-items: center;
+        }
+        #caixa{
+            width: 100px;
+            height: 100px;
+            background: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+
+<button onclick="animar()">animaçao</button>
+<h1>isto é um titulo</h1>
+<br>
+
+<br>
+<p>isto é um paragrafo</p>
+<div id="caixa"></div>
+
+<script>
+    let paragrafo= document.createElement("h1");
+    paragrafo.innerHTML="Nova frase";
+    //document.body.appendChild(paragrafo);
+    function animar(){
+        let pos=0;
+        let caix=document.getElementById("caixa");
+        let animaçao=setInterval(mover,10);
+
+    function mover(){
+        if(pos==700){
+            clearInterval(animaçao);
+        }
+        else{
+            pos++;
+            div.style.left=pos+"px";
+        }
+    }
+    }
+
+</script>
+</body>
+</html>
