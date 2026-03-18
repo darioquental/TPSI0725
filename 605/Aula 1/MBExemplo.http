@@ -1,0 +1,35 @@
+POST http://localhost:2525/imposters
+
+{
+  "port": 4546,
+  "protocol": "http",
+  "name": "API1",
+  "stubs": [
+    {
+      "predicates": [
+        {
+          "matches": {
+            "method": "POST",
+            "path": "/api/marcas",
+            "body": "{\"Nome\":\"bmw\"}"
+          }
+        }
+      ],
+      "responses": [
+        {
+          "is": {
+            "statusCode": 200,
+            "headers": {
+              "Content-Type": "application/json; charset=utf-8"
+            },
+            "body": "{\"marcas\": [\"Toyota\", \"Audi\", \"Ford\", \"Volvo\", \"Honda\"]}"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+POST http://localhost:4546/api/marcas
+
+{"Nome":"bmw"}
