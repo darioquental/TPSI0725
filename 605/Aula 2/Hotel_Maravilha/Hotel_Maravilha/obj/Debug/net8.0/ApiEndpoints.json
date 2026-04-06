@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Hotel_Maravilha.Controllers.HotelMController",
+    "Method": "CreateEdit",
+    "RelativePath": "CreateEdit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "booking",
+        "Type": "Hotel_Maravilha.Models.HotelBooking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Maravilha.Controllers.HotelMController",
+    "Method": "Delete",
+    "RelativePath": "Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Maravilha.Controllers.HotelMController",
+    "Method": "Get",
+    "RelativePath": "Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Maravilha.Controllers.HotelMController",
+    "Method": "GetAll",
+    "RelativePath": "GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

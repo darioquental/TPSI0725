@@ -35,3 +35,11 @@ POST http://localhost:2525/imposters
 POST http://localhost:4546/api/marcas
 
 {"Nome":"bmw"}
+
+
+###
+GET https://localhost:7106/WeatherForecast
+
+###
+
+GET https://localhost:7106/GetAll
