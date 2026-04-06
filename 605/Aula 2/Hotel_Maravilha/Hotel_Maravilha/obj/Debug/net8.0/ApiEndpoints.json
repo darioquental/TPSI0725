@@ -3,7 +3,7 @@
     "ContainingType": "Hotel_Maravilha.Controllers.HotelMController",
     "Method": "CreateEdit",
     "RelativePath": "CreateEdit",
-    "HttpMethod": "PUT",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

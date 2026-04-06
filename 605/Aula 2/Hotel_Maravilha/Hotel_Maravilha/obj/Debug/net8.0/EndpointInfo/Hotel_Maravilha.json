@@ -6,7 +6,7 @@
   },
   "paths": {
     "/CreateEdit": {
-      "put": {
+      "post": {
         "tags": [
           "HotelM"
         ],

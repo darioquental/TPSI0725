@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1krElzp1fdU=",
+  "dgSpecHash": "4Co+KtW8+x8=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\C#\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj",
+  "projectFilePath": "C:\\DEV\\TPSI0725\\605\\Aula 2\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dhdq\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.14\\microsoft.entityframeworkcore.9.0.14.nupkg.sha512",
     "C:\\Users\\dhdq\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.14\\microsoft.entityframeworkcore.abstractions.9.0.14.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\C#\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj": {}
+    "C:\\DEV\\TPSI0725\\605\\Aula 2\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\C#\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj": {
+    "C:\\DEV\\TPSI0725\\605\\Aula 2\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\C#\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj",
+        "projectUniqueName": "C:\\DEV\\TPSI0725\\605\\Aula 2\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj",
         "projectName": "Hotel_Maravilha",
-        "projectPath": "C:\\DEV\\C#\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj",
+        "projectPath": "C:\\DEV\\TPSI0725\\605\\Aula 2\\Hotel_Maravilha\\Hotel_Maravilha\\Hotel_Maravilha.csproj",
         "packagesPath": "C:\\Users\\dhdq\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\C#\\Hotel_Maravilha\\Hotel_Maravilha\\obj\\",
+        "outputPath": "C:\\DEV\\TPSI0725\\605\\Aula 2\\Hotel_Maravilha\\Hotel_Maravilha\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
