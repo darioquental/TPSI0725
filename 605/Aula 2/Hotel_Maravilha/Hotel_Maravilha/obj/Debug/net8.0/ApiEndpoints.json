@@ -56,5 +56,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Maravilha.Controllers.HotelMController",
+    "Method": "GetImposter",
+    "RelativePath": "GetImposter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

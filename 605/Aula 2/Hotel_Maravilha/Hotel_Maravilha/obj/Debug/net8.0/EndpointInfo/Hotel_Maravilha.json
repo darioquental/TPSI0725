@@ -91,6 +91,18 @@
           }
         }
       }
+    },
+    "/GetImposter": {
+      "get": {
+        "tags": [
+          "HotelM"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

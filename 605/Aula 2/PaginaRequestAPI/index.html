@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="requestapi()">request</button>
+    <input type="text" id="resultado" >
+<script>
+    function requestapi(){
+        fetch('https://localhost:7106/GetImposter')
+        .then(res=>res.json())
+        .then(data=>{
+            const obj=data.value[0];
+            document.getElementById("resultado").value =
+            `ID:${obj.id} | Nome:${obj.clientName} | Room:${obj.roomNumber} |`;
+        })
+    }
+</script>
+
+</body>
+</html>

@@ -66,5 +66,11 @@ namespace Hotel_Maravilha.Controllers
             var result = _context.Bookings.ToList();
             return new JsonResult(Ok(result));
         }
+
+        [HttpGet("/GetImposter")]
+        public JsonResult GetImposter()
+        {
+            return new JsonResult(Ok());
+        }
     }
 }
